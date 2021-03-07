@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/life-calculator/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/life-calculator/static/js/main.48356995.chunk.js",
+    "main.js.map": "/life-calculator/static/js/main.48356995.chunk.js.map",
+    "runtime-main.js": "/life-calculator/static/js/runtime-main.cdae3fc7.js",
+    "runtime-main.js.map": "/life-calculator/static/js/runtime-main.cdae3fc7.js.map",
+    "static/js/2.2dd1b53a.chunk.js": "/life-calculator/static/js/2.2dd1b53a.chunk.js",
+    "static/js/2.2dd1b53a.chunk.js.map": "/life-calculator/static/js/2.2dd1b53a.chunk.js.map",
+    "static/js/3.6736a398.chunk.js": "/life-calculator/static/js/3.6736a398.chunk.js",
+    "static/js/3.6736a398.chunk.js.map": "/life-calculator/static/js/3.6736a398.chunk.js.map",
+    "index.html": "/life-calculator/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/life-calculator/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.2dd1b53a.chunk.js.LICENSE.txt": "/life-calculator/static/js/2.2dd1b53a.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/life-calculator/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdae3fc7.js",
+    "static/js/2.2dd1b53a.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.48356995.chunk.js"
+  ]
+}
