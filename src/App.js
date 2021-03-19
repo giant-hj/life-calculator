@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, Suspense } from "react";
+import { Route, Switch } from "react-router-dom";
+import { CssBaseline, MuiThemeProvider } from "@material-ui/core";
+import theme from "theme";
+import GlobalStyles from "GlobalStyles";
+
+const HomePage = React.lazy(() => import("pages/HomePage"));
+const HelloPage = React.lazy(() => import("pages/HelloPage"));
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MuiThemeProvider theme={theme}>
+      <CssBaseline />
+      <GlobalStyles />
+      <Suspense fallback={<Fragment />}>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/hello" component={HelloPage} />
+        </Switch>
+      </Suspense>
+    </MuiThemeProvider>
   );
 }
 
